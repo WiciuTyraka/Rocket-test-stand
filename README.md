@@ -131,3 +131,5 @@ This is the schema for all the wireing with arduino
 
 ### Arduino code
 [the necessary code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/MicroSD%20Card%20Adapter/save_to_file.ino)
+
+Wiktor Tasarek
