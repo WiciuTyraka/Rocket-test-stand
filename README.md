@@ -6,9 +6,9 @@ This is a project of rocket test stand to measure the trust and temperature of t
 - [Rocket test stand](#rocket-test-stand)
   * [About](#about)
   *  [PCB](#pcb)
-    + [Schema](#schema)
-    + [Board](#board)
-    + [Libraries](#libraries)
+    - [Schema](#schema)
+    - [Board](#board)
+    - [Libraries](#libraries)
 
 
 
