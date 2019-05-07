@@ -31,8 +31,8 @@ links for downloading a board file.
 
 ### Libraries
 Here are a necessary libraries for elements thats are used in project.
-- [ark 8.5mm]
-- [hx711]
-- [LoRa module]
-- [max6675]
-- [microsd]
+- [ark 8.5mm]()
+- [hx711]()
+- [LoRa module]()
+- [max6675]()
+- [microsd]()
