@@ -21,7 +21,7 @@ Circut board is designed in Eagle
  - First board is a shield for Arduino Uno or STM32 Nucelo board. On this board is located a adpter for SD-card, amplifire for load cell and thermometr, and also a LoRa module.
 [schema of rocket test stand board]()
 
-- Second board is used to collecting signals from sensors and ignite the engine.
+- Second board is used to collecting signals from sensors and ignite the engine.    
 [schema of input rocket test stand board]()
 
 ### Board
