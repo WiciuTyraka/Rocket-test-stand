@@ -15,8 +15,8 @@ This is a project of rocket test stand to measure the trust and temperature of t
       - [Thermocouples and max6675](#thermocouples-and-max6675)
       - [LoRa module](#lora-module)
       - [Pin map](#pin-map)
-  * [Arduino Code](*arduino-code)
-  * [STM32 Code](stm32-code)
+  * [Arduino Code](#arduino-code)
+  * [STM32 Code](#stm32-code)
 
 
 
@@ -56,7 +56,7 @@ Micro sd-card adapter is used for saving all data in txt file or as a json.
 
 #### Wireing schema
 This is the schema for all the wireing with arduino
-![alt text](https://github.com/Tyraka/Rocket-test-stand/blob/master/MicroSD%20Card%20Adapter/fritzing_bb.png)
+![alt text](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/SD-card/sd-card_schema.png)
 
 #### Adapter wireing
 | MicroSD Card Adapter | Adruino UNO Pin |
@@ -69,7 +69,7 @@ This is the schema for all the wireing with arduino
 |          GND         |        GND      |
 
 #### Arduino code
-[the necessary code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/MicroSD%20Card%20Adapter/save_to_file.ino)
+[the necessary code is here](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/SD-card/save_to_file/save_to_file.ino)
 </details>
 
 ### Load cell and HX711
@@ -169,7 +169,7 @@ The  RFM95W transceivers  feature  the  LoRaTM  long range modem that provides u
 
 #### RFM95W schema
 This is the schema for all the wireing with arduino
-![alt text]()
+![alt text](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/LoRa/LoRa_schema.png)
 
 #### RFM95W library
 You can download the necessary library here:
@@ -178,12 +178,12 @@ You can download the necessary library here:
 #### Arduino code
 Here is a code for a transmiter and reciver(in fact both of them are transceivers) :
 - transmiter:
-[the code is here]()
+[the code is here](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/LoRa/transmiter/transmiter.ino)
 - reciver:
-[the code is here]()
+[the code is here](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/LoRa/reciver/reciver.ino)
 
 #### Datasheet
-[link]()
+[link](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/LoRa/RFM95_96_97_98W.pdf)
 
 </details>
 
