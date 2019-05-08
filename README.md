@@ -48,6 +48,7 @@ Here are a necessary libraries for elements thats are used in project.
 In this project are used few sensors and device, here you can find a exemple code, libraries and datasheet for them.
 
 ### SD-card
+---
 Micro sd-card adapter is used for saving all data in txt file or as a json.
 <details>
 <summary>details</summary>
@@ -72,6 +73,7 @@ This is the schema for all the wireing with arduino
 </details>
 
 ### Load cell and HX711
+---
 Load cell id used for measuring a engine thrust. Analog signal form load cell is converting to digital by HX711 amplifier
 <details>
 <summary>details</summary>
@@ -117,6 +119,7 @@ All the code necessary for calibration the load cell and measuring the force:
 
 
 ### Thermocouples and max6675
+---
 To measure a temperature of the combustion chember and nozzle I'm using a thermocouple. Analog signal from this sensor is converting to digital by max6675 amplifier
 
 <details>
@@ -154,6 +157,7 @@ Basic code for reading temperature
 
 
 ### LoRa module
+---
 I used LoRa transceiver to ignite the engine from safe distance also wireless communication allows me to watch data in real time.
 
 <details>
