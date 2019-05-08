@@ -47,9 +47,10 @@ Here are a necessary libraries for elements thats are used in project.
 ## Sensors
 In this project are used few sensors and device, here you can find a exemple code, libraries and datasheet for them.
 
+### SD-card
 <details>
 
-### <summary>SD-card</summary>
+<summary>details</summary>
 </br>
 Save date to txt file
 
