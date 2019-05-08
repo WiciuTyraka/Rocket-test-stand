@@ -48,11 +48,10 @@ Here are a necessary libraries for elements thats are used in project.
 In this project are used few sensors and device, here you can find a exemple code, libraries and datasheet for them.
 
 ### SD-card
+Save date to txt file
 <details>
-
 <summary>details</summary>
 </br>
-Save date to txt file
 
 #### Wireing schema
 This is the schema for all the wireing with arduino
@@ -70,4 +69,27 @@ This is the schema for all the wireing with arduino
 
 #### Arduino code
 [the necessary code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/MicroSD%20Card%20Adapter/save_to_file.ino)
+</details>
+
+### Load cell
+
+<details>
+<summary>details</summary>
+#### Load cell wireing
+| HX711 | Load cell |
+|-------|----------:|
+| E+    | white     |
+| E-    | red       |
+| S+    | black     |
+| S-    | green     |
+
+#### Basic load resistance checks
+| Resistance check | Typical 350 Ω |
+|------------------|--------------:|
+| Ex+ to Ex-       | ~410Ω         |
+| S+ to S-         | 350Ω          |
+| Ex+ to S+        | ~315Ω         |
+| Ex+ to S-        | ~315Ω         |
+| Ex- to S+        | ~280Ω         |
+| Ex- to S-        | ~280Ω         |
 </details>
