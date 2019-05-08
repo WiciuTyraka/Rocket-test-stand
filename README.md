@@ -47,7 +47,8 @@ Here are a necessary libraries for elements thats are used in project.
 ## Sensors
 In this project are used few sensors and device, here you can find a exemple code, libraries and datasheet for them.
 
-### SD-card
+<details>
+### <summary>SD-card<summary/>
 Save date to txt file
 
 #### Wireing schema
@@ -66,3 +67,4 @@ This is the schema for all the wireing with arduino
 
 #### Arduino code
 [the necessary code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/MicroSD%20Card%20Adapter/save_to_file.ino)
+</details>
