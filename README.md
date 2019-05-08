@@ -122,9 +122,9 @@ To measure a temperature of the combustion chember and nozzle I'm using a thermo
 <details>
 <summary>details</summary>
 </br>
-### Chip - MAX 6675
 
-#### Specifications
+
+#### Specifications of max6675
 |                        |                    |
 |------------------------|-------------------:|
 | Suply Voltage          | 3.3 to 5 VDC       |
