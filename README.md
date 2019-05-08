@@ -11,7 +11,7 @@ This is a project of rocket test stand to measure the trust and temperature of t
       - [Libraries](#libraries)
   * [Sensors](#sensors)
       - [SD-card](#sd-card)
-      - [Load cell and HX711](#load_cell_and_hx711)
+      - [Load cell and HX711](#load-cell-and-hx711)
       - [Thermocouples and max6675](#thermocouples)
       - [LoRa module](#lora_module)
       - [Pin map](#pin_map)
