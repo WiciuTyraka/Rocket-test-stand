@@ -73,11 +73,9 @@ This is the schema for all the wireing with arduino
 
 ### Load cell
 
-<details>
-<summary>details</summary>
-</br>
+
 #### Load cell wireing
-</br>
+
 | HX711 | Load cell |
 |-------|----------:|
 | E+    | white     |
@@ -94,4 +92,3 @@ This is the schema for all the wireing with arduino
 | Ex+ to S-        | ~315Ω         |
 | Ex- to S+        | ~280Ω         |
 | Ex- to S-        | ~280Ω         |
-</details>
