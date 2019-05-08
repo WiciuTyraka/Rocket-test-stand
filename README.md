@@ -50,11 +50,11 @@ In this project are used few sensors and device, here you can find a exemple cod
 ### SD-card
 Save date to txt file
 
-### Wireing schema
+#### Wireing schema
 This is the schema for all the wireing with arduino
 ![alt text](https://github.com/Tyraka/Rocket-test-stand/blob/master/MicroSD%20Card%20Adapter/fritzing_bb.png)
 
-### Adapter wireing
+#### Adapter wireing
 | MicroSD Card Adapter | Adruino UNO Pin |
 |----------------------|----------------:|
 |          CS          |        4        |
@@ -64,5 +64,5 @@ This is the schema for all the wireing with arduino
 |          VCC         |        5V       |
 |          GND         |        GND      |
 
-### Arduino code
+#### Arduino code
 [the necessary code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/MicroSD%20Card%20Adapter/save_to_file.ino)
