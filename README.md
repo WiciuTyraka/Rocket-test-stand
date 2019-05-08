@@ -49,8 +49,9 @@ In this project are used few sensors and device, here you can find a exemple cod
 
 <details>
 ###SD-card
-<summary>Save date to txt file</summary>
+<summary>SD-card</summary>
 </br>
+Save date to txt file
 
 #### Wireing schema
 This is the schema for all the wireing with arduino
