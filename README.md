@@ -11,7 +11,7 @@ This is a project of rocket test stand to measure the trust and temperature of t
       - [Libraries](#libraries)
   * [Sensors](#sensors)
       - [SD-card](#sd-card)
-      - [Load cell](#load_cell)
+      - [Load cell and HX711](#load_cell)
       - [Thermocouples](#thermocouples)
       - [LoRa module](#lora_module)
       - [Pin map](#pin_map)
@@ -48,7 +48,7 @@ Here are a necessary libraries for elements thats are used in project.
 In this project are used few sensors and device, here you can find a exemple code, libraries and datasheet for them.
 
 ### SD-card
-Save date to txt file
+Micro sd-card adapter is used for saving all data in txt file or as a json.
 <details>
 <summary>details</summary>
 </br>
@@ -72,19 +72,11 @@ This is the schema for all the wireing with arduino
 </details>
 
 ### Load cell
-Load cell id used for measuring a engine thrust
+Load cell id used for measuring a engine thrust. Analog signal form load cell is converting to digital by HX711 amplifier
 <details>
 <summary>details</summary>
 </br>
-fdxgfchgvjhb
-
-#### Load cell wireing
-| HX711 | Load cell |
-|-------|----------:|
-| E+    | white     |
-| E-    | red       |
-| S+    | black     |
-| S-    | green     |
+I cant find a datasheet for my chinese load cell so made this table
 
 #### Basic load resistance checks
 | Resistance check | Typical 350 Ω |
@@ -95,4 +87,30 @@ fdxgfchgvjhb
 | Ex+ to S-        | ~315Ω         |
 | Ex- to S+        | ~280Ω         |
 | Ex- to S-        | ~280Ω         |
+
+#### Load cell wireing
+| HX711 | Load cell |
+|-------|----------:|
+| E+    | white     |
+| E-    | red       |
+| S+    | black     |
+| S-    | green     |
+
+#### Amplifer schema
+This is a schema for all the wireing with arduino
+![alt text](https://github.com/Tyraka/Rocket-test-stand/blob/master/Engine%20thrust/amplifier_schema.png "Logo Title Text 1")
+
+#### HX711 library
+You can download the necessary library here:
+[download](https://halckemy.s3.amazonaws.com/uploads/attachments/392655/HX711-master.zip)
+
+#### Arduino code
+All the code necessary for calibration the load cell and measuring the force:
+- calibration:
+[the code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/Engine%20thrust/calibration.ino)
+- measurment:
+[the code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/Engine%20thrust/measurement.ino)
+
+#### Datasheet
+[link](https://circuits4you.com/wp-content/uploads/2016/11/hx711_datasheet_english.pdf)
 </details>
