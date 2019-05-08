@@ -72,10 +72,13 @@ This is the schema for all the wireing with arduino
 </details>
 
 ### Load cell
-
+Load cell id used for measuring a engine thrust
+<details>
+<summary>details</summary>
+</br>
+fdxgfchgvjhb
 
 #### Load cell wireing
-
 | HX711 | Load cell |
 |-------|----------:|
 | E+    | white     |
@@ -92,3 +95,4 @@ This is the schema for all the wireing with arduino
 | Ex+ to S-        | ~315Ω         |
 | Ex- to S+        | ~280Ω         |
 | Ex- to S-        | ~280Ω         |
+</details>
