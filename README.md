@@ -12,11 +12,11 @@ This is a project of rocket test stand to measure the trust and temperature of t
   * [Sensors](#sensors)
       - [SD-card](#sd-card)
       - [Load cell and HX711](#load-cell-and-hx711)
-      - [Thermocouples and max6675](#thermocouples)
-      - [LoRa module](#lora_module)
-      - [Pin map](#pin_map)
-  * [Arduino Code](*arduino_code)
-  * [STM32 Code](stm32_code)
+      - [Thermocouples and max6675](#thermocouples-and-max6675)
+      - [LoRa module](#lora-module)
+      - [Pin map](#pin-map)
+  * [Arduino Code](*arduino-code)
+  * [STM32 Code](stm32-code)
 
 
 
@@ -116,5 +116,37 @@ All the code necessary for calibration the load cell and measuring the force:
 </details>
 
 
-### Thermocouples
-Load cell id used for measuring a engine thrust. Analog signal form load cell is converting to digital by HX711 amplifier
+### Thermocouples and max6675
+To measure a temperature of the combustion chember and nozzle I'm using a thermocouple. Analog signal from this sensor is converting to digital by max6675 amplifier
+
+<details>
+<summary>details</summary>
+</br>
+### Chip - MAX 6675
+
+#### Specifications
+|                        |                    |
+|------------------------|-------------------:|
+| Suply Voltage          | 3.3 to 5 VDC       |
+| Operating Current      | ~50mA              |
+| Measurement Range      | 0 - 1024^∘C        |
+| Measurement Resolution | +/- 0.25^∘C        |
+| Output                 | Uses SPI interface |
+| Required sensor        | K Thermocouple     |
+
+#### Thermocouples schema
+This is the schema for all the wireing with arduino
+![alt text](https://github.com/Tyraka/Stand/blob/master/Engine%20temperature/thermocouples_schema.png)
+
+#### MAX6675 library
+You can download the necessary library here:
+[download](https://github.com/adafruit/MAX6675-library)
+
+#### Arduino code
+Basic code for reading temperature
+[the necessary code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/Engine%20temperature/thermocouples_schema.png)
+
+#### Datasheet
+[link](http://henrysbench.capnfatz.com/wp-content/uploads/2015/05/MAX6675-Datasheet.pdf)
+
+</details>
