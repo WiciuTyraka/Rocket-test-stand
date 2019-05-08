@@ -185,3 +185,19 @@ Here is a code for a transmiter and reciver(in fact both of them are transceiver
 [link]()
 
 </deatils>
+
+### Pin map
+This table contains information abaout all pins to witch are connected all device
+
+| Pin number |Device  |
+|------------|--------|
+| 2          |led     |
+|          3 |sd      |
+
+
+## Arduino code
+This version of code not include a wireless communication
+- here you can find a [code]()
+
+## STM32 code
+cause i'm very busy right now, i'll back to this task in nearly future.
