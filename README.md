@@ -48,8 +48,9 @@ Here are a necessary libraries for elements thats are used in project.
 In this project are used few sensors and device, here you can find a exemple code, libraries and datasheet for them.
 
 <details>
-### <summary>SD-card<summary/>
-Save date to txt file
+###SD-card
+<summary>Save date to txt file</summary>
+</br>
 
 #### Wireing schema
 This is the schema for all the wireing with arduino
