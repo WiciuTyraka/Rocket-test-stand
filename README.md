@@ -48,8 +48,8 @@ Here are a necessary libraries for elements thats are used in project.
 In this project are used few sensors and device, here you can find a exemple code, libraries and datasheet for them.
 
 <details>
-###SD-card
-<summary>SD-card</summary>
+
+### <summary>SD-card</summary>
 </br>
 Save date to txt file
 
