@@ -190,7 +190,7 @@ Here is a code for a transmiter and reciver(in fact both of them are transceiver
 
 ### Pin map
 ---
-This table contains information abaout all pins to witch are connected all device
+This table contains information abaout all pins to witch are connected device
 
 | Pin number |Device  |
 |------------|--------|
