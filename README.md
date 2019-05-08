@@ -100,7 +100,7 @@ I cant find a datasheet for my chinese load cell so made this table
 
 #### Amplifer schema
 This is a schema for all the wireing with arduino
-![alt text](https://github.com/Tyraka/Rocket-test-stand/blob/master/Engine%20thrust/amplifier_schema.png "Logo Title Text 1")
+![alt text](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/Load_cell/amplifier_schema.png)
 
 #### HX711 library
 You can download the necessary library here:
@@ -109,9 +109,9 @@ You can download the necessary library here:
 #### Arduino code
 All the code necessary for calibration the load cell and measuring the force:
 - calibration:
-[the code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/Engine%20thrust/calibration.ino)
+[the code is here](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/Load_cell/calibration/calibration.ino)
 - measurment:
-[the code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/Engine%20thrust/measurement.ino)
+[the code is here](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/Load_cell/measurment/measurment.ino)
 
 #### Datasheet
 [link](https://circuits4you.com/wp-content/uploads/2016/11/hx711_datasheet_english.pdf)
