@@ -11,12 +11,12 @@ This is a project of rocket test stand to measure the trust and temperature of t
       - [Libraries](#libraries)
   * [Sensors](#sensors)
       - [SD-card](#sd-card)
-      - [Load cell](#load cell)
+      - [Load cell](#load_cell)
       - [Thermocouples](#thermocouples)
-      - [LoRa module](#lora module)
-      - [Pin map](#pin map)
-  * [Arduino Code](*arduino code)
-  * [STM32 Code](stm32 code)
+      - [LoRa module](#lora_module)
+      - [Pin map](#pin_map)
+  * [Arduino Code](*arduino_code)
+  * [STM32 Code](stm32_code)
 
 
 
