@@ -163,6 +163,7 @@ I used LoRa transceiver to ignite the engine from safe distance also wireless co
 <details>
 <summary>details</summary>
 </br>
+
 The chip I used in project is a RFM95W transceiver.
 The  RFM95W transceivers  feature  the  LoRaTM  long range modem that provides ultra-long range spread spectrum communication and high interference immunity whilst minimising current consumption.
 
@@ -184,8 +185,9 @@ Here is a code for a transmiter and reciver(in fact both of them are transceiver
 #### Datasheet
 [link]()
 
-</deatils>
-</br>
+</detils>
+
+
 ### Pin map
 This table contains information abaout all pins to witch are connected all device
 
