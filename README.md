@@ -19,20 +19,20 @@ Circut board is designed in Eagle
 ### Schema
  Rocket test stend consist of two board.
  - First board is a shield for Arduino Uno or STM32 Nucelo board. On this board is located a adpter for SD-card, amplifire for load cell and thermometr, and also a LoRa module.<br/>
-[schema of rocket test stand board]()
+[schema of rocket test stand board](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Schema/hamownia.sch)
 
 - Second board is used to collecting signals from sensors and ignite the engine.<br/>
-[schema of input rocket test stand board]()
+[schema of input rocket test stand board](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Schema/hamownia_output.sch)
 
 ### Board
 links for downloading a board file.
-- [link for rocket_test_stend.brd]()
-- [link for rocket_test_stend_input.brd]()
+- [link for rocket_test_stend.brd](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Board/hamownia.brd)
+- [link for rocket_test_stend_input.brd](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Board/hamownia_output.brd)
 
 ### Libraries
 Here are a necessary libraries for elements thats are used in project.
-- [ark 8.5mm]()
-- [hx711]()
+- [ark 8.5mm](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Lib/111_ark_8.5mm.lbr)
+- [hx711](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Lib/111_hx711.lbr)
 - [LoRa module](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Lib/111_LORA.lbr)
-- [max6675]()
-- [microsd]()
+- [max6675](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Lib/111_max6675.lbr)
+- [microsd](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Lib/111_microsd.lbr)
