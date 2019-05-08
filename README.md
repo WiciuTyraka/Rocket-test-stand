@@ -75,6 +75,7 @@ This is the schema for all the wireing with arduino
 
 <details>
 <summary>details</summary>
+</br>
 #### Load cell wireing
 | HX711 | Load cell |
 |-------|----------:|
