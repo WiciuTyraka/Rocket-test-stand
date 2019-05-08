@@ -12,7 +12,7 @@ This is a project of rocket test stand to measure the trust and temperature of t
   * [Sensors](#sensors)
       - [SD-card](#sd-card)
       - [Load cell and HX711](#load_cell)
-      - [Thermocouples](#thermocouples)
+      - [Thermocouples and max6675](#thermocouples)
       - [LoRa module](#lora_module)
       - [Pin map](#pin_map)
   * [Arduino Code](*arduino_code)
@@ -71,7 +71,7 @@ This is the schema for all the wireing with arduino
 [the necessary code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/MicroSD%20Card%20Adapter/save_to_file.ino)
 </details>
 
-### Load cell
+### Load cell and HX711
 Load cell id used for measuring a engine thrust. Analog signal form load cell is converting to digital by HX711 amplifier
 <details>
 <summary>details</summary>
@@ -114,3 +114,7 @@ All the code necessary for calibration the load cell and measuring the force:
 #### Datasheet
 [link](https://circuits4you.com/wp-content/uploads/2016/11/hx711_datasheet_english.pdf)
 </details>
+
+
+### Thermocouples
+Load cell id used for measuring a engine thrust. Analog signal form load cell is converting to digital by HX711 amplifier
