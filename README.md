@@ -150,3 +150,34 @@ Basic code for reading temperature
 [link](http://henrysbench.capnfatz.com/wp-content/uploads/2015/05/MAX6675-Datasheet.pdf)
 
 </details>
+
+
+
+### LoRa module
+I used LoRa transceiver to ignite the engine from safe distance also wireless communication allows me to watch data in real time.
+
+<details>
+<summary>details</summary>
+</br>
+The chip I used in project is a RFM95W transceiver.
+The  RFM95W transceivers  feature  the  LoRaTM  long range modem that provides ultra-long range spread spectrum communication and high interference immunity whilst minimising current consumption.
+
+#### RFM95W schema
+This is the schema for all the wireing with arduino
+![alt text]()
+
+#### RFM95W library
+You can download the necessary library here:
+[download]()
+
+#### Arduino code
+Here is a code for a transmiter and reciver(in fact both of them are transceivers) :
+- transmiter:
+[the code is here]()
+- reciver:
+[the code is here]()
+
+#### Datasheet
+[link]()
+
+</deatils>
