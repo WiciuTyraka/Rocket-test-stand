@@ -192,10 +192,15 @@ Here is a code for a transmiter and reciver(in fact both of them are transceiver
 ---
 This table contains information abaout all pins to witch are connected device
 
-| Pin number |Device  |
-|------------|--------|
-| 2          |led     |
-|          3 |sd      |
+| Pin number |Device    |
+|------------|----------|
+| 15         |led       |
+| 16         |ignite    |
+| 17         |buzzer    |
+| 2          |HX711 CLK |
+| 3          |HX711 DOUT|
+| 4          |SD card   |
+|   |   |
 
 
 ## Arduino code
