@@ -9,7 +9,14 @@ This is a project of rocket test stand to measure the trust and temperature of t
       - [Schema](#schema)
       - [Board](#board)
       - [Libraries](#libraries)
-
+  * [Sensors](#sensors)
+      - [SD-card](#sd-card)
+      - [Load cell](#load cell)
+      - [Thermocouples](#thermocouples)
+      - [LoRa module](#lora module)
+      - [Pin map](#pin map)
+  * [Arduino Code](*arduino code)
+  * [STM32 Code](stm32 code)
 
 
 
@@ -36,3 +43,26 @@ Here are a necessary libraries for elements thats are used in project.
 - [LoRa module](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Lib/111_LORA.lbr)
 - [max6675](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Lib/111_max6675.lbr)
 - [microsd](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Lib/111_microsd.lbr)
+
+## Sensors
+In this project are used few sensors and device, here you can find a exemple code, libraries and datasheet for them.
+
+### SD-card
+Save date to txt file
+
+### Wireing schema
+This is the schema for all the wireing with arduino
+![alt text](https://github.com/Tyraka/Rocket-test-stand/blob/master/MicroSD%20Card%20Adapter/fritzing_bb.png)
+
+### Adapter wireing
+| MicroSD Card Adapter | Adruino UNO Pin |
+|----------------------|----------------:|
+|          CS          |        4        |
+|          SCK         |        13       |
+|          MOSI        |        11       |
+|          MISO        |        12       |
+|          VCC         |        5V       |
+|          GND         |        GND      |
+
+### Arduino code
+[the necessary code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/MicroSD%20Card%20Adapter/save_to_file.ino)
