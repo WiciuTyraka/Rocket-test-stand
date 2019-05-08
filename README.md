@@ -201,3 +201,5 @@ This version of code not include a wireless communication
 
 ## STM32 code
 cause i'm very busy right now, i'll back to this task in nearly future.
+
+by Wiktor Tasarek
