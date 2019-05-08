@@ -33,6 +33,6 @@ links for downloading a board file.
 Here are a necessary libraries for elements thats are used in project.
 - [ark 8.5mm]()
 - [hx711]()
-- [LoRa module]()
+- [LoRa module](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Lib/111_LORA.lbr)
 - [max6675]()
 - [microsd]()
