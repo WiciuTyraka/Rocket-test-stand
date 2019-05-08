@@ -185,10 +185,11 @@ Here is a code for a transmiter and reciver(in fact both of them are transceiver
 #### Datasheet
 [link]()
 
-</detils>
+</details>
 
 
 ### Pin map
+---
 This table contains information abaout all pins to witch are connected all device
 
 | Pin number |Device  |
