@@ -139,7 +139,7 @@ To measure a temperature of the combustion chember and nozzle I'm using a thermo
 
 #### Thermocouples schema
 This is the schema for all the wireing with arduino
-![alt text](https://github.com/Tyraka/Stand/blob/master/Engine%20temperature/thermocouples_schema.png)
+![alt text](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/Thermocouple/thermocouples_schema.png)
 
 #### MAX6675 library
 You can download the necessary library here:
@@ -147,7 +147,7 @@ You can download the necessary library here:
 
 #### Arduino code
 Basic code for reading temperature
-[the necessary code is here](https://github.com/Tyraka/Rocket-test-stand/blob/master/Engine%20temperature/thermocouples_schema.png)
+[the necessary code is here](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/Thermocouple/thermocouples/thermocouples.ino)
 
 #### Datasheet
 [link](http://henrysbench.capnfatz.com/wp-content/uploads/2015/05/MAX6675-Datasheet.pdf)
