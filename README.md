@@ -183,7 +183,7 @@ Here is a code for a transmiter and reciver(in fact both of them are transceiver
 [the code is here](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/LoRa/reciver/reciver.ino)
 
 #### Datasheet
-[link](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Sensors/LoRa/RFM95_96_97_98W.pdf)
+[link](https://www.hoperf.com/modules/lora/RFM95.html)
 
 </details>
 
