@@ -196,15 +196,25 @@ Here is a code for a transmiter and reciver(in fact both of them are transceiver
 ---
 This table contains information abaout all pins to witch are connected device
 
-| Pin number |Device    |
-|------------|----------|
-| 15         |led       |
-| 16         |ignite    |
-| 17         |buzzer    |
-| 2          |HX711 CLK |
-| 3          |HX711 DOUT|
-| 4          |SD card   |
-|   |   |
+| Pin number |Device     |
+|------------|---------- |
+| 0          |LoRa DIO0  |
+| 1          |LoRa DIO1  |
+| 2          |HX711 CLK  |
+| 3          |HX711 DOUT |
+| 4          |SD card    |
+| 5          |LoRa RESET |
+| 6          |LoRa CS    |
+| 8          |max6675 CS |
+| 9          |max6675 SO |
+| 10         |max6675 SCK|
+| 11         |MOSI       |
+| 12         |MISO       |
+| 13         |CLK        |
+| 14         |switch     |
+| 15         |led        |
+| 16         |ignite     |
+| 17         |buzzer     |
 
 
 ## Code for Arduino
