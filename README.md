@@ -15,7 +15,7 @@ This is a project of rocket test stand to measure the trust and temperature of t
       - [Thermocouples and max6675](#thermocouples-and-max6675)
       - [LoRa module](#lora-module)
       - [Pin map](#pin-map)
-  * [Arduino Code](#arduino-code)
+  * [Arduino code](#arduino-code)
   * [STM32 Code](#stm32-code)
 
 
