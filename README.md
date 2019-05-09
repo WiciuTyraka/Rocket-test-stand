@@ -15,8 +15,8 @@ This is a project of rocket test stand to measure the trust and temperature of t
       - [Thermocouples and max6675](#thermocouples-and-max6675)
       - [LoRa module](#lora-module)
       - [Pin map](#pin-map)
-  * [Arduino code](#arduino-code)
-  * [STM32 Code](#stm32-code)
+  * [Code for arduino](#code-for-arduino)
+  * [Code for STM32](#code-for-stm32)
 
 
 
@@ -207,11 +207,12 @@ This table contains information abaout all pins to witch are connected device
 |   |   |
 
 
-## Arduino code
+## Code for Arduino
+
 This version of code not include a wireless communication
 - here you can find a [code](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/Arduino_code/Rocekt_test_stand/Rocekt_test_stand.ino)
 
-## STM32 code
+## Code for STM32
 cause i'm very busy right now, i'll back to this task in nearly future.
 
-by Wiktor Tasarek
+*by* Wiktor Tasarek
