@@ -26,15 +26,19 @@ Circut board is designed in Eagle
 ### Schema
  Rocket test stend consist of two board.
  - First board is a shield for Arduino Uno or STM32 Nucelo board. On this board is located a adpter for SD-card, amplifire for load cell and thermometr, and also a LoRa module.<br/>
-[schema of rocket test stand board](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Schema/hamownia.sch)
+[schema of rocket test stand board](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Schema/Rocekt_test_stand.sch)
+![alt text](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Schema/Rocekt_test_stand.png)
+
 
 - Second board is used to collecting signals from sensors and ignite the engine.<br/>
-[schema of input rocket test stand board](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Schema/hamownia_output.sch)
+[schema of input rocket test stand board](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Schema/Rocekt_test_stand_input.sch)
+![alt text](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Schema/Rocekt_test_stand_input.png)
+
 
 ### Board
 links for downloading a board file.
-- [link for rocket_test_stend.brd](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Board/hamownia.brd)
-- [link for rocket_test_stend_input.brd](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Board/hamownia_output.brd)
+- [link for rocket_test_stend.brd](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Board/Rocekt_test_stand.brd)
+- [link for rocket_test_stend_input.brd](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Board/Rocekt_test_stand_input.brd)
 
 ### Libraries
 Here are a necessary libraries for elements thats are used in project.
