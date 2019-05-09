@@ -32,7 +32,7 @@ Circut board is designed in Eagle
 
 - Second board is used to collecting signals from sensors and ignite the engine.<br/>
 [schema of input rocket test stand board](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Schema/Rocekt_test_stand_input.sch)
-![alt text](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Schema/Rocekt_test_stand_input.png)
+![alt text](https://github.com/WiciuTyraka/Rocket-test-stand/blob/master/PCB/Schema/Rocekt_test_stend_input.png)
 
 
 ### Board
